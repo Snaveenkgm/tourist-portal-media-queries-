@@ -1,0 +1,52 @@
+
+.logo{
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    display: block;
+}
+.image{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.main > h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.card{
+    width: 40%;
+}
+img{
+    float: left;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+footer{
+    clear: both;
+    float: right;
+}
+
+@media (max-width: 680px){
+    .main >h1{
+        font-size: 2rem;
+    }
+    .image{
+        width: 100%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    .card{
+        width: 100%;
+    }
+    .card > p{
+        text-align: justify;
+    }
+
+}
